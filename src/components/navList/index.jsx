@@ -140,6 +140,8 @@ const NavListCore = () => {
 
             <div className="navlinksWrapper" id="navlinksWrapper" ref={wrapperRef}>
                 <NavLink to="/home" title="Home" className={"home"}>Home</NavLink>
+
+                <NavLink to="/service-job-card">Service Job Card</NavLink>
                 <NavLink to="/qr-generator" title="QR Generator">QR Generator</NavLink>
                 <NavLink to="/token-press" title="Token Press">Token Press</NavLink>
                 <NavLink to="/seal-maker" title="Seal Maker">Seal Maker</NavLink>

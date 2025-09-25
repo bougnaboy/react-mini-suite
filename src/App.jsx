@@ -16,11 +16,13 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const ServiceJobCard = lazy(() => import("./pages/apps/serviceJobCard"));
 const QrGenerator = lazy(() => import('./pages/apps/qrGenerator'));
 const TokenPress = lazy(() => import("./pages/apps/tokenPress"));
 const SealMaker = lazy(() => import("./pages/apps/sealMaker"));
 const RupeeWords = lazy(() => import("./pages/apps/rupeeWords"));
 const RateCard = lazy(() => import("./pages/apps/rateCard"));
+
 
 
 
@@ -72,6 +74,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/service-job-card" element={<ServiceJobCard />} />
                                 <Route path="/qr-generator" element={<QrGenerator />} />
                                 <Route path="/token-press" element={<TokenPress />} />
                                 <Route path="/seal-maker" element={<SealMaker />} />
