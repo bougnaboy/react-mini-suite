@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const UpiQrStyled = lazy(() => import("./pages/apps/upiQrStyled"));
 const ServiceJobCard = lazy(() => import("./pages/apps/serviceJobCard"));
 const QrGenerator = lazy(() => import('./pages/apps/qrGenerator'));
 const TokenPress = lazy(() => import("./pages/apps/tokenPress"));
@@ -74,6 +75,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/upi-qr-styled" element={<UpiQrStyled />} />
                                 <Route path="/service-job-card" element={<ServiceJobCard />} />
                                 <Route path="/qr-generator" element={<QrGenerator />} />
                                 <Route path="/token-press" element={<TokenPress />} />
