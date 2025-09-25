@@ -17,7 +17,6 @@ const HeaderBar = styled.div`
     gap: 12px;
     align-items: baseline;
     margin-bottom: var(--space-4, 24px);
-
     h1 {
         font-size: clamp(18px, 2vw, 24px);
         font-weight: 700;
@@ -33,7 +32,6 @@ const Grid = styled.div`
     display: grid;
     grid-template-columns: 1.1fr 1fr;
     gap: var(--space-4, 24px);
-
     @media (max-width: 960px) {
         grid-template-columns: 1fr;
     }
@@ -50,7 +48,6 @@ const Panel = styled.section`
 const Form = styled.form`
     display: grid;
     gap: var(--space-3, 16px);
-
     input[type="text"],
     input[type="color"],
     input[type="file"],
@@ -90,7 +87,6 @@ const SliderRow = styled.div`
     grid-template-columns: 1fr auto;
     gap: 10px;
     align-items: center;
-
     input[type="range"] {
         accent-color: ${accent};
     }
@@ -121,9 +117,7 @@ const CanvasBox = styled.div`
     border: 1px dashed ${border};
     border-radius: ${radius};
     background: #0f0f0f;
-
     canvas {
-        /* border: 1px solid #f00; */
         width: min(420px, 80vw);
         height: auto;
     }
@@ -144,7 +138,6 @@ const Btn = styled.button`
     border: 1px solid ${border};
     background: #161616;
     color: ${text};
-
     &:disabled {
         opacity: 0.6;
         cursor: not-allowed;
