@@ -16,6 +16,8 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const QrGenerator = lazy(() => import('./pages/apps/qrGenerator'));
+
 const NotFound = lazy(() => import('./pages/notFound'));
 
 const App = () => {
@@ -64,7 +66,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
-
+                                <Route path="/qr-generator" element={<QrGenerator />} />
 
                                 {/* 404 */}
                                 <Route path="*" element={<NotFound />} />
