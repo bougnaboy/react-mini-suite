@@ -19,6 +19,8 @@ const Home = lazy(() => import('./pages/home'));
 const QrGenerator = lazy(() => import('./pages/apps/qrGenerator'));
 const TokenPress = lazy(() => import("./pages/apps/tokenPress"));
 const SealMaker = lazy(() => import("./pages/apps/sealMaker"));
+const RupeeWords = lazy(() => import("./pages/apps/rupeeWords"));
+
 
 const NotFound = lazy(() => import('./pages/notFound'));
 
@@ -71,6 +73,7 @@ const App = () => {
                                 <Route path="/qr-generator" element={<QrGenerator />} />
                                 <Route path="/token-press" element={<TokenPress />} />
                                 <Route path="/seal-maker" element={<SealMaker />} />
+                                <Route path="/rupee-words" element={<RupeeWords />} />
 
                                 {/* 404 */}
                                 <Route path="*" element={<NotFound />} />

@@ -143,6 +143,7 @@ const NavListCore = () => {
                 <NavLink to="/qr-generator" title="QR Generator">QR Generator</NavLink>
                 <NavLink to="/token-press" title="Token Press">Token Press</NavLink>
                 <NavLink to="/seal-maker" title="Seal Maker">Seal Maker</NavLink>
+                <NavLink to="/rupee-words" title="Rupee Words">Rupee Words</NavLink>
             </div>
 
             {/* Minimal CSS hook: hide elements with data-hidden="true" if your Styled.Nav doesn't already */}
