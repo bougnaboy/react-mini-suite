@@ -86,3 +86,9 @@ h6 {
     font-family: "Antonio", sans-serif;
     font-size: 20px;
 }
+
+/* make the calendar icon white on dark bg (Chromium/Safari) */
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
