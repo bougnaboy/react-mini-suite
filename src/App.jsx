@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const PersonalFinance = lazy(() => import("./pages/apps/personalFinance"));
 const SmartTimetable = lazy(() => import("./pages/apps/smartTimetable"));
 const AssignmentPlanner = lazy(() => import("./pages/apps/assignmentPlanner"));
 const DailyFocusPlanner = lazy(() => import("./pages/apps/dailyFocusPlanner"));
@@ -79,6 +80,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/personal-finance" element={<PersonalFinance />} />
                                 <Route path="/smart-timetable" element={<SmartTimetable />} />
                                 <Route path="/assignment-planner" element={<AssignmentPlanner />} />
                                 <Route path="/daily-focus-planner" element={<DailyFocusPlanner />} />
