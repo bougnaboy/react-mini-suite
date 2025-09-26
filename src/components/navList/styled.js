@@ -57,11 +57,16 @@ export const Styled = {
             /* border: 1px solid #f00; */
             height: calc(100% - 40px);
             overflow: auto;
-            padding-left: 20px;
+            padding-left: 40px;
             color: #666;
 
-            a {
-                padding-left: 15px;
+            li {
+                font-family: Consolas;
+                a {
+                    padding-left: 10px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    white-space: nowrap;
+                }
             }
         }
     `,
