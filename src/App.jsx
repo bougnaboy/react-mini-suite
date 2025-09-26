@@ -16,6 +16,32 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const CalorieCounter = lazy(() => import('./pages/apps/calorieCounter'));
+const GroceryListManager = lazy(() => import('./pages/apps/groceryListManager'));
+const HabitTracker = lazy(() => import('./pages/apps/habitTracker'));
+const Journal = lazy(() => import('./pages/apps/journal'));
+const MovieWatchList = lazy(() => import('./pages/apps/movieWatchList'));
+const PasswordManager = lazy(() => import('./pages/apps/passwordManager'));
+const RecipeBox = lazy(() => import('./pages/apps/recipeBox'));
+const TodoListCrud = lazy(() => import('./pages/apps/todoListCrud'));
+const WaterIntake = lazy(() => import('./pages/apps/waterIntake'));
+const WorkoutPlanner = lazy(() => import('./pages/apps/workoutPlanner'));
+const PackingListGenerator = lazy(() => import('./pages/apps/packingListGenerator'))
+const PersonalGoalSetter = lazy(() => import('./pages/apps/personalGoalSetter'))
+const SimpleTimer = lazy(() => import('./pages/apps/simpleTimer'))
+const GiftIdeaList = lazy(() => import('./pages/apps/giftIdeaList'))
+const QuoteCollector = lazy(() => import('./pages/apps/quoteCollector'))
+const PersonalDashboard = lazy(() => import('./pages/apps/personalDashboard'))
+const ColorPalettePicker = lazy(() => import('./pages/apps/colorPalettePicker'))
+const UnitConverter = lazy(() => import('./pages/apps/unitConverter'))
+const TicTacToeGame = lazy(() => import('./pages/apps/ticTacToeGame'))
+const WordScrambleGame = lazy(() => import('./pages/apps/wordScrambleGame'))
+const QuizApp = lazy(() => import('./pages/apps/quizApp'))
+const DrawingApp = lazy(() => import('./pages/apps/drawingApp'))
+const StickyNotesApp = lazy(() => import('./pages/apps/stickyNotesApp'))
+const KanbanBoard = lazy(() => import('./pages/apps/kanbanBoard'))
+const TextEditor = lazy(() => import('./pages/apps/textEditor'))
+
 const BookReadingList = lazy(() => import("./pages/apps/bookReadingList"));
 const PersonalFinance = lazy(() => import("./pages/apps/personalFinance"));
 const SmartTimetable = lazy(() => import("./pages/apps/smartTimetable"));
@@ -80,6 +106,33 @@ const App = () => {
                                 {/* Basics */}
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
+
+                                <Route path="/book-reading-list" element={<BookReadingList />} />
+                                <Route path="/calorie-counter" element={<CalorieCounter />} />
+                                <Route path="/grocery-list-manager" element={<GroceryListManager />} />
+                                <Route path="/habit-tracker" element={<HabitTracker />} />
+                                <Route path="/journal" element={<Journal />} />
+                                <Route path="/movie-watch-list" element={<MovieWatchList />} />
+                                <Route path="/password-manager" element={<PasswordManager />} />
+                                <Route path="/recipe-box" element={<RecipeBox />} />
+                                <Route path="/todo-list-crud" element={<TodoListCrud />} />
+                                <Route path="/water-intake" element={<WaterIntake />} />
+                                <Route path="/workout-planner" element={<WorkoutPlanner />} />
+                                <Route path="/packing-list-generator" element={<PackingListGenerator />} />
+                                <Route path="/personal-goal-setter" element={<PersonalGoalSetter />} />
+                                <Route path="/simple-timer" element={<SimpleTimer />} />
+                                <Route path="/gift-idea-list" element={<GiftIdeaList />} />
+                                <Route path="/quote-collector" element={<QuoteCollector />} />
+                                <Route path="/personal-dashboard" element={<PersonalDashboard />} />
+                                <Route path="/color-palette-picker" element={<ColorPalettePicker />} />
+                                <Route path="/unit-converter" element={<UnitConverter />} />
+                                <Route path="/tic-tac-toe-game" element={<TicTacToeGame />} />
+                                <Route path="/word-scramble-game" element={<WordScrambleGame />} />
+                                <Route path="/quiz-app" element={<QuizApp />} />
+                                <Route path="/drawing-app" element={<DrawingApp />} />
+                                <Route path="/sticky-notes-app" element={<StickyNotesApp />} />
+                                <Route path="/kanban-board" element={<KanbanBoard />} />
+                                <Route path="/text-editor" element={<TextEditor />} />
 
                                 <Route path="/book-reading-list" element={<BookReadingList />} />
                                 <Route path="/personal-finance" element={<PersonalFinance />} />

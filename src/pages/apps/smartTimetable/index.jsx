@@ -483,7 +483,7 @@ export default function SmartTimetable() {
                                 ))}
                             </Styled.PeriodList>
 
-                            <Styled.Row gap="8">
+                            <Styled.Row $gap="8">
                                 <Styled.Button
                                     $variant="ghost"
                                     onClick={() =>

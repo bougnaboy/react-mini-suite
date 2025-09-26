@@ -199,7 +199,7 @@ Styled.PeriodList = styled.div`
 
 Styled.Row = styled.div`
     display: flex;
-    gap: ${(p) => p.gap || 12}px;
+    gap: ${(p) => p.$gap ?? 12}px;
     flex-wrap: wrap;
     margin-top: 8px;
 `;

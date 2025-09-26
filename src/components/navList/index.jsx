@@ -141,14 +141,40 @@ const NavListCore = () => {
             <div className="navlinksWrapper" id="navlinksWrapper" ref={wrapperRef}>
                 <NavLink to="/home" title="Home" className={"home"}>Home</NavLink>
 
-                <NavLink to="/book-reading-list">Book Reading List</NavLink>
-                <NavLink to="/personal-finance">Personal Finance</NavLink>
-                <NavLink to="/smart-timetable">Smart Timetable</NavLink>
-                <NavLink to="/assignment-planner">Assignment Planner</NavLink>
-                <NavLink to="/daily-focus-planner">Daily Focus Planner</NavLink>
-                <NavLink to="/shop-billing">Shop Billing</NavLink>
-                <NavLink to="/upi-qr-styled">UPI QR Styled</NavLink>
-                <NavLink to="/service-job-card">Service Job Card</NavLink>
+                <NavLink to="/book-reading-list" title="Book Reading List" >Book Reading List</NavLink>
+                <NavLink to="/calorie-counter" title="Calorie Counter">Calorie Counter</NavLink>
+                <NavLink to="/grocery-list-manager" title="Grocery List Manager">Grocery List Manager</NavLink>
+                <NavLink to="/habit-tracker" title="Habit Tracker">Habit Tracker</NavLink>
+                <NavLink to="/journal" title="Journal">Journal</NavLink>
+                <NavLink to="/movie-watch-list" title="Movie Watch List">Movie Watch List</NavLink>
+                <NavLink to="/password-manager" title="Password Manager">Password Manager</NavLink>
+                <NavLink to="/recipe-box" title="Recipe Box">Recipe Box</NavLink>
+                <NavLink to="/todo-list-crud" title="Todo List Crud">Todo List Crud</NavLink>
+                <NavLink to="/water-intake" title="Water Intake">Water Intake</NavLink>
+                <NavLink to="/workout-planner" title="Workout Planner">Workout Planner</NavLink>
+                <NavLink to="/packing-list-generator" title="Packing List Generator">Packing List Generator</NavLink>
+                <NavLink to="/personal-goal-setter" title="Personal Goal Setter">Personal Goal Setter</NavLink>
+                <NavLink to="/simple-timer" title="Simple Timer">Simple Timer</NavLink>
+                <NavLink to="/gift-idea-list" title="Gift Idea List">Gift Idea List</NavLink>
+                <NavLink to="/quote-collector" title="Quote Collector">Quote Collector</NavLink>
+                <NavLink to="/personal-dashboard" title="Personal Dashboard">Personal Dashboard</NavLink>
+                <NavLink to="/color-palette-picker" title="Color Palette Picker">Color Palette Picker</NavLink>
+                <NavLink to="/unit-converter" title="Unit Converter">Unit Converter</NavLink>
+                <NavLink to="/tic-tac-toe-game" title="Tic-Tac-Toe Game">Tic-Tac-Toe Game</NavLink>
+                <NavLink to="/word-scramble-game" title="Word Scramble Game">Word Scramble Game</NavLink>
+                <NavLink to="/quiz-app" title="Quiz App">Quiz App</NavLink>
+                <NavLink to="/drawing-app" title="Drawing App">Drawing App</NavLink>
+                <NavLink to="/sticky-notes-app" title="Sticky Notes App">Sticky Notes App</NavLink>
+                <NavLink to="/kanban-board" title="Kanban Board">Kanban Board</NavLink>
+                <NavLink to="/text-editor" title="Text Editor">Text Editor</NavLink>
+
+                <NavLink to="/personal-finance" title="Personal Finance">Personal Finance</NavLink>
+                <NavLink to="/smart-timetable" title="Smart Timetable">Smart Timetable</NavLink>
+                <NavLink to="/assignment-planner" title="Assignment Planner">Assignment Planner</NavLink>
+                <NavLink to="/daily-focus-planner" title="Daily Focus Planner">Daily Focus Planner</NavLink>
+                <NavLink to="/shop-billing" title="Shop Billing">Shop Billing</NavLink>
+                <NavLink to="/upi-qr-styled" title="UPI QR Styled">UPI QR Styled</NavLink>
+                <NavLink to="/service-job-card" title="Service Job Card">Service Job Card</NavLink>
                 <NavLink to="/qr-generator" title="QR Generator">QR Generator</NavLink>
                 <NavLink to="/token-press" title="Token Press">Token Press</NavLink>
                 <NavLink to="/seal-maker" title="Seal Maker">Seal Maker</NavLink>
