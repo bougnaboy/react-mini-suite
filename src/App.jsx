@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const BlobGenerator = lazy(() => import("./pages/apps/blobGenerator"));
 const BankKycForm = lazy(() => import("./pages/apps/bankKycForm"));
 const BmiCalculator = lazy(() => import("./pages/apps/bmiCalculator"));
 const CalorieCounter = lazy(() => import('./pages/apps/calorieCounter'));
@@ -109,6 +110,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/blob-generator" element={<BlobGenerator />} />
                                 <Route path="/bank-kyc-form" element={<BankKycForm />} />
                                 <Route path="/bmi-calculator" element={<BmiCalculator />} />
                                 <Route path="/book-reading-list" element={<BookReadingList />} />
