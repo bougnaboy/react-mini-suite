@@ -141,6 +141,7 @@ const NavListCore = () => {
             <ol className="navlinksWrapper" id="navlinksWrapper" ref={wrapperRef}>
                 <li><NavLink to="/home" title="Home" className={"home"}>Home</NavLink></li>
 
+                <li><NavLink to="/bmi-calculator" title="BMI Calculator">BMI Calculator</NavLink></li>
                 <li><NavLink to="/book-reading-list" title="Book Reading List" >Book Reading List</NavLink></li>
                 <li><NavLink to="/calorie-counter" title="Calorie Counter">Calorie Counter</NavLink></li>
                 <li><NavLink to="/grocery-list-manager" title="Grocery List Manager">Grocery List Manager</NavLink></li>

@@ -16,6 +16,8 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+
+const BmiCalculator = lazy(() => import("./pages/apps/bmiCalculator"));
 const CalorieCounter = lazy(() => import('./pages/apps/calorieCounter'));
 const GroceryListManager = lazy(() => import('./pages/apps/groceryListManager'));
 const HabitTracker = lazy(() => import('./pages/apps/habitTracker'));
@@ -107,6 +109,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/bmi-calculator" element={<BmiCalculator />} />
                                 <Route path="/book-reading-list" element={<BookReadingList />} />
                                 <Route path="/calorie-counter" element={<CalorieCounter />} />
                                 <Route path="/grocery-list-manager" element={<GroceryListManager />} />
