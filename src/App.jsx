@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const ColorPaletteGenerator = lazy(() => import("./pages/apps/colorPaletteGenerator"));
 const BlobGenerator = lazy(() => import("./pages/apps/blobGenerator"));
 const BankKycForm = lazy(() => import("./pages/apps/bankKycForm"));
 const BmiCalculator = lazy(() => import("./pages/apps/bmiCalculator"));
@@ -110,6 +111,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/color-palette-generator" element={<ColorPaletteGenerator />} />
                                 <Route path="/blob-generator" element={<BlobGenerator />} />
                                 <Route path="/bank-kyc-form" element={<BankKycForm />} />
                                 <Route path="/bmi-calculator" element={<BmiCalculator />} />
