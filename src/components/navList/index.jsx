@@ -141,6 +141,7 @@ const NavListCore = () => {
             <div className="navlinksWrapper" id="navlinksWrapper" ref={wrapperRef}>
                 <NavLink to="/home" title="Home" className={"home"}>Home</NavLink>
 
+                <NavLink to="/book-reading-list">Book Reading List</NavLink>
                 <NavLink to="/personal-finance">Personal Finance</NavLink>
                 <NavLink to="/smart-timetable">Smart Timetable</NavLink>
                 <NavLink to="/assignment-planner">Assignment Planner</NavLink>
