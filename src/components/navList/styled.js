@@ -54,8 +54,15 @@ export const Styled = {
         }
 
         .navlinksWrapper {
+            /* border: 1px solid #f00; */
             height: calc(100% - 40px);
             overflow: auto;
+            padding-left: 20px;
+            color: #666;
+
+            a {
+                padding-left: 15px;
+            }
         }
     `,
 };

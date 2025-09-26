@@ -11,9 +11,9 @@ const Home = () => {
     return (
         <>
             <Styled.Wrapper>
-                <h3>Freelance Apps Hub - last updated: Sep 25, 2025</h3>
+                <h3>Freelance Apps Hub - last updated: Sep 26, 2025</h3>
 
-                <fieldset>
+                {/* <fieldset>
                     <legend>About Project</legend>
                     <div className='para'>
                         <div className='section'>
@@ -55,7 +55,53 @@ const Home = () => {
                             <h3>Code: <a href="https://github.com/a2rp/freelance-apps-hub" target='_blank'>github.com/a2rp/freelance-apps-hub</a></h3>
                         </div>
                     </div>
-                </fieldset >
+                </fieldset > */}
+
+                <fieldset>
+                    <legend>About Project</legend>
+                    <div className='para'>
+                        <div className='section'>
+                            <b>Freelance Apps Hub</b> is a curated set of <i>refactored</i>, single-purpose tools I originally built as a freelancer - now cleaned up and open-sourced. Many of these started life in <b>PHP</b>, <b>C/C++</b>, and <b>vanilla JavaScript</b> (and later <b>React</b>), Visual Basic, Java and have been modernized, standardized, and ported into a lightweight React (Vite) shell.
+                        </div>
+
+                        <div className='section'>
+                            <h3>What's inside</h3>
+                            <ul>
+                                <li>Real client utilities, refactored: PHP / C/C++ / JavaScript / React → consistent UI, confirm dialogs, and print views</li>
+                                <li>Vanilla HTML + SCSS + JavaScript apps, hosted in an isolated React route (no CSS/JS clashes)</li>
+                                <li>Offline-first with tidy “Print / Save as PDF” layouts</li>
+                                <li>Examples: UPI QR Generator, Daily Focus Planner, Cash Denomination Counter (more coming)</li>
+                            </ul>
+                        </div>
+
+                        <div className='section'>
+                            <h3>How to use</h3>
+                            <ul>
+                                <li>Pick an app from the left → start using instantly</li>
+                                <li>Use Print / Save as PDF where available</li>
+                                <li>Your data stays on your device (<b>localStorage only</b>)</li>
+                            </ul>
+                        </div>
+
+                        <div className='section'>
+                            <h3>Why this exists</h3>
+                            <ul>
+                                <li>Share real, field-tested freelance utilities with the community</li>
+                                <li>Provide reusable patterns for counters, billing, planning, and simple ops</li>
+                            </ul>
+                        </div>
+
+                        <div className='section'>
+                            <h3>Contribute / Feedback</h3>
+                            ⭐ the repo, file issues, or suggest an app idea.
+                        </div>
+
+                        <div className='section'>
+                            <h3>Live: <a href="https://a2rp.github.io/freelance-apps-hub/home" target='_blank'>a2rp.github.io/freelance-apps-hub/home</a></h3>
+                            <h3>Code: <a href="https://github.com/a2rp/freelance-apps-hub" target='_blank'>github.com/a2rp/freelance-apps-hub</a></h3>
+                        </div>
+                    </div>
+                </fieldset>
 
                 <fieldset>
                     <legend>About Developer</legend>
