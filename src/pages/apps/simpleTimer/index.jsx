@@ -453,7 +453,7 @@ export default function SimpleTimer() {
                     </Styled.ProgressWrap>
 
                     <Styled.MetaRow>
-                        <Styled.Badge>#{label}</Styled.Badge> : <Styled.Badge $tone="muted">No label</Styled.Badge>}
+                        <Styled.Badge>#{label}</Styled.Badge> : <Styled.Badge $tone="muted">No label</Styled.Badge>
                         <span>•</span>
                         <Styled.Badge>{isRunning ? "Running" : remaining > 0 ? "Paused" : "Finished"}</Styled.Badge>
 
