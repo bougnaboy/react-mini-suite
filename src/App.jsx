@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const DailyFocusPlanner = lazy(() => import("./pages/apps/dailyFocusPlanner"));
 const ShopBilling = lazy(() => import("./pages/apps/shopBilling"));
 const UpiQrStyled = lazy(() => import("./pages/apps/upiQrStyled"));
 const ServiceJobCard = lazy(() => import("./pages/apps/serviceJobCard"));
@@ -76,6 +77,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/daily-focus-planner" element={<DailyFocusPlanner />} />
                                 <Route path="/shop-billing" element={<ShopBilling />} />
                                 <Route path="/upi-qr-styled" element={<UpiQrStyled />} />
                                 <Route path="/service-job-card" element={<ServiceJobCard />} />
