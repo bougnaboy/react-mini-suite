@@ -51,8 +51,8 @@ const Home = () => {
                         </div>
 
                         <div className='section'>
-                            <h3>Live: <a href="https://www.a2rp.github.io/freelance-apps-hub/" target='_blank'>a2rp.github.io/freelance-apps-hub/</a></h3>
-                            <h3>Code: <a href="github.com/a2rp/freelance-apps-hub" target='_blank'>github.com/a2rp/freelance-apps-hub</a></h3>
+                            <h3>Live: <a href="https://a2rp.github.io/freelance-apps-hub/home" target='_blank'>a2rp.github.io/freelance-apps-hub/home</a></h3>
+                            <h3>Code: <a href="https://github.com/a2rp/freelance-apps-hub" target='_blank'>github.com/a2rp/freelance-apps-hub</a></h3>
                         </div>
                     </div>
                 </fieldset >
