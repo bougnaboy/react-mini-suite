@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const Covid19Tracker = lazy(() => import("./pages/apps/covid19Tracker"));
 const CountdownToBirthday = lazy(() => import("./pages/apps/countdownToBirthday"));
 const ColorPaletteGenerator = lazy(() => import("./pages/apps/colorPaletteGenerator"));
 const BlobGenerator = lazy(() => import("./pages/apps/blobGenerator"));
@@ -112,6 +113,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/covid19-tracker" element={<Covid19Tracker />} />
                                 <Route path="/countdown-to-birthday" element={<CountdownToBirthday />} />
                                 <Route path="/color-palette-generator" element={<ColorPaletteGenerator />} />
                                 <Route path="/blob-generator" element={<BlobGenerator />} />
