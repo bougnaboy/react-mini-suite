@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const FarmingLanding = lazy(() => import("./pages/apps/farmingLanding"));
 const EmojiSearchApp = lazy(() => import("./pages/apps/emojiSearchApp"));
 const DiceApp = lazy(() => import("./pages/apps/diceApp"));
 const DailyWorkoutRandomizer = lazy(() => import("./pages/apps/dailyWorkoutRandomizer"));
@@ -116,6 +117,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/farming-landing" element={<FarmingLanding />} />
                                 <Route path="/emoji-search-app" element={<EmojiSearchApp />} />
                                 <Route path="/dice-app" element={<DiceApp />} />
                                 <Route path="/daily-workout-randomizer" element={<DailyWorkoutRandomizer />} />
