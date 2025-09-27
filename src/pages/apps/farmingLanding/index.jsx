@@ -24,7 +24,7 @@ const FarmingLanding = () => {
 
             {/* Features */}
             <Styled.Section id="features">
-                <h2>What’s inside</h2>
+                <h2>What's inside</h2>
                 <p className="sub">
                     Lightweight, offline-friendly helpers you can actually use on the field.
                 </p>

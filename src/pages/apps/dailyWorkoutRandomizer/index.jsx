@@ -3,7 +3,7 @@ import { Styled } from "./styled";
 
 const EXERCISES = [
     { name: "Arm Circles", focus: "mobility", equipment: "BW", type: "time" },
-    { name: "World’s Greatest Stretch", focus: "mobility", equipment: "BW", type: "time" },
+    { name: "World's Greatest Stretch", focus: "mobility", equipment: "BW", type: "time" },
     { name: "Cat–Cow", focus: "mobility", equipment: "BW", type: "time" },
     { name: "Hip Openers", focus: "mobility", equipment: "BW", type: "time" },
     { name: "Ankle Rolls", focus: "mobility", equipment: "BW", type: "time" },

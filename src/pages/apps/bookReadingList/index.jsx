@@ -127,7 +127,7 @@ export default function BookReadingList() {
 
     const clearRead = () => {
         askConfirm({
-            title: "Clear all ‘Read’ books?",
+            title: "Clear all 'Read' books?",
             message: "This will remove all books marked as Read.",
             confirmText: "Clear",
             tone: "danger",
@@ -209,7 +209,7 @@ export default function BookReadingList() {
                     </Styled.RowWrap>
 
                     <Styled.RowWrap>
-                        <Styled.DangerButton type="button" onClick={clearRead}>Clear ‘Read’</Styled.DangerButton>
+                        <Styled.DangerButton type="button" onClick={clearRead}>Clear 'Read'</Styled.DangerButton>
                     </Styled.RowWrap>
                 </Styled.Toolbar>
 

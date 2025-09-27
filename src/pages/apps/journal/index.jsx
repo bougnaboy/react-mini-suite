@@ -215,7 +215,7 @@ export default function Journal() {
 
     const deleteEntry = () => {
         askConfirm({
-            title: "Delete today’s entry?",
+            title: "Delete today's entry?",
             message: `Remove the entry for ${fmtNice(selectedDate)}?`,
             confirmText: "Delete",
             tone: "danger",

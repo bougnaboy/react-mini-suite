@@ -141,6 +141,7 @@ const NavListCore = () => {
             <ol className="navlinksWrapper" id="navlinksWrapper" ref={wrapperRef} reversed>
                 {/* <li><NavLink to="/home" title="Home" className={"home"}>Home</NavLink></li> */}
 
+                <li><NavLink to="/guess-the-number" title="Guess the Number">Guess the Number</NavLink></li>
                 <li><NavLink to="/gif-generator" title="GIF Generator">GIF Generator</NavLink></li>
                 <li><NavLink to="/fun-fact-generator" title="Fun-Fact Generator">Fun-Fact Generator</NavLink></li>
                 <li><NavLink to="/fruit-matcher-game" title="Fruit Matcher Game">Fruit Matcher Game</NavLink></li>

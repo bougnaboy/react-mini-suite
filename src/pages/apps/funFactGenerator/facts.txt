@@ -32,13 +32,13 @@ Dolphins each have a signature whistle that functions like a name.
 Cheetahs purr and chirp but do not roar.
 Tomatoes are fruits in botany and vegetables in cuisine.
 Avocados are toxic to many animals because of a compound called persin.
-A bolt of lightning heats the air to temperatures hotter than the Sun’s surface.
+A bolt of lightning heats the air to temperatures hotter than the Sun's surface.
 The Moon is moving away from Earth by a few centimeters each year.
 Saturn would float in water if you could find a bathtub big enough.
-There are more stars in the universe than grains of sand on Earth’s beaches (by current estimates).
+There are more stars in the universe than grains of sand on Earth's beaches (by current estimates).
 Humans share roughly 60% of their DNA with bananas.
 Hot water can freeze faster than cold water in some conditions (the Mpemba effect).
-An ostrich’s eye is bigger than its brain.
+An ostrich's eye is bigger than its brain.
 Jellyfish have existed for hundreds of millions of years, long before dinosaurs.
 Some turtles can breathe through specialized tissues in their rear ends during hibernation.
 Sea otters hold hands while sleeping to avoid drifting apart.
@@ -46,7 +46,7 @@ Sloths move so slowly that algae can grow on their fur.
 A group of crows is called a murder.
 The unicorn is the national animal of Scotland.
 Octopus arms have a kind of mini-brain that can make local decisions.
-Penguins have knees; they’re just hidden under feathers and fat.
+Penguins have knees; they're just hidden under feathers and fat.
 Camels store fat, not water, in their humps.
 Horses and cows can sleep standing up.
 The fingerprints of koalas can resemble those of humans under a microscope.
@@ -56,7 +56,7 @@ The longest English word commonly cited has 45 letters: pneumonoultramicroscopic
 Pineapples can take up to two years to grow.
 Almonds are seeds of a drupe, not true nuts.
 The largest living structure is the Great Barrier Reef.
-The Amazon rainforest produces a significant portion of the world’s oxygen through photosynthesis.
+The Amazon rainforest produces a significant portion of the world's oxygen through photosynthesis.
 The coldest natural temperature recorded on Earth was in Antarctica at −89.2°C (−128.6°F).
 Mount Everest is over 8.8 kilometers (5.5 miles) above sea level.
 A sneeze can travel at more than 150 kilometers per hour (in bursts).
@@ -70,7 +70,7 @@ Diamonds and graphite are both made of carbon but arranged differently.
 Glass is an amorphous solid—it behaves like a solid but lacks a crystal structure.
 The speed of light in a vacuum is approximately 299,792 kilometers per second.
 The speed of sound in air at room temperature is about 343 meters per second.
-Earth’s core is as hot as the surface of the Sun.
+Earth's core is as hot as the surface of the Sun.
 The Pacific Ocean is the largest and deepest ocean on Earth.
 The Mariana Trench is the deepest known oceanic trench.
 The Sahara is the largest hot desert; Antarctica is the largest cold desert.
@@ -79,7 +79,7 @@ The smallest bone in the human body is the stapes in the ear.
 Your taste buds have a lifespan of about 10–14 days.
 Humans have unique tongue prints, just like fingerprints.
 Yawning may help cool the brain.
-A cat’s nose print is unique.
+A cat's nose print is unique.
 Hummingbirds are the only birds that can fly backward.
 There are more bacteria cells in and on your body than human cells (by count).
 The average cloud can weigh several million kilograms.
@@ -90,7 +90,7 @@ Water is densest at around 4°C (39°F).
 Liquid water has been found on moons such as Europa and Enceladus (as subsurface oceans).
 A teaspoon of neutron star material would weigh billions of tons on Earth.
 On Mars, sunsets appear blue due to dust scattering sunlight.
-The Sun accounts for about 99.8% of the Solar System’s mass.
+The Sun accounts for about 99.8% of the Solar System's mass.
 Jupiter is more massive than all the other planets combined.
 A year on Mercury has only 88 Earth days.
 Pluto has a heart-shaped region called Tombaugh Regio.
@@ -107,14 +107,14 @@ Zero is a concept and symbol that was independently developed in multiple cultur
 Pi is an irrational number; its decimal expansion never repeats.
 A palindrome reads the same forward and backward, like level or radar.
 Solar eclipses happen when the Moon passes between Earth and the Sun.
-Lunar eclipses happen when Earth’s shadow falls on the Moon.
-The aurora borealis occurs when solar particles interact with Earth’s magnetic field and atmosphere.
+Lunar eclipses happen when Earth's shadow falls on the Moon.
+The aurora borealis occurs when solar particles interact with Earth's magnetic field and atmosphere.
 Rainbows are circular; we usually see only an arc from the ground.
 No two snowflakes are exactly the same in detailed structure.
 Giraffes have the same number of neck vertebrae as humans: seven.
 An adult human has 32 teeth, including four wisdom teeth (often removed).
 The human nose can detect over a trillion different odors, by some estimates.
-Your skin is your body’s largest organ.
+Your skin is your body's largest organ.
 Blood is red because of hemoglobin, which contains iron.
 Chili heat is a pain response triggered by capsaicin activating TRPV1 receptors.
 Birds are living dinosaurs from a cladistic viewpoint.
@@ -135,13 +135,13 @@ Bluetooth is named after a 10th-century Danish king, Harald Bluetooth.
 The first SMS text message was sent in 1992.
 QR codes can store thousands of numeric characters.
 GPS satellites require relativistic adjustments to maintain accuracy.
-A rainbow’s order of colors is red, orange, yellow, green, blue, indigo, violet.
+A rainbow's order of colors is red, orange, yellow, green, blue, indigo, violet.
 Monarch butterflies migrate thousands of kilometers across North America.
 Some frogs can survive being frozen and thawed.
-Crocodiles can’t stick their tongues out properly; it’s attached to the roof of the mouth.
+Crocodiles can't stick their tongues out properly; it's attached to the roof of the mouth.
 Glass can be recycled indefinitely without loss of purity.
-Aluminum is the most abundant metal in Earth’s crust.
-Oxygen is the most abundant element in Earth’s crust by mass.
+Aluminum is the most abundant metal in Earth's crust.
+Oxygen is the most abundant element in Earth's crust by mass.
 Helium is the second most abundant element in the universe after hydrogen.
 Black holes are regions where gravity is so strong that not even light can escape.
 The Milky Way is a barred spiral galaxy.
@@ -149,7 +149,7 @@ A light-year measures distance, not time.
 The Hubble Space Telescope launched in 1990.
 Some lizards can detach their tails to escape predators.
 The platypus lays eggs despite being a mammal.
-Kangaroos can’t move backward easily due to their anatomy.
+Kangaroos can't move backward easily due to their anatomy.
 Horses communicate with ear position and body language.
 An octopus can squeeze through any gap larger than its beak.
 Cacti store water in their stems, not their spines.
@@ -165,14 +165,14 @@ Bread rises because yeast produces carbon dioxide during fermentation.
 Cheese is created when milk proteins coagulate and separate from whey.
 Yogurt is made by bacterial fermentation of milk.
 Rice has fed more people over a longer time than any other crop.
-Coffee beans are the seeds of the coffee plant’s berries.
+Coffee beans are the seeds of the coffee plant's berries.
 Tea is made from the leaves of Camellia sinensis.
 Cinnamon is the inner bark of certain tree species.
 Peppercorns come from the dried fruit of Piper nigrum.
 Ginger is a rhizome used as a spice and medicine.
 Turmeric contains curcumin, a natural pigment.
 Cloves are dried flower buds of an evergreen tree.
-The world’s tallest trees are coast redwoods.
+The world's tallest trees are coast redwoods.
 Coral reefs are made up of tiny animals called polyps.
 Seahorses are fish, and males carry the young in a pouch.
 Electric eels can generate strong electric shocks to stun prey.
@@ -184,7 +184,7 @@ Earthworms improve soil by aerating and digesting organic matter.
 Termites cultivate fungi in some species to help digest wood.
 The largest living lizard is the Komodo dragon.
 Whales communicate using complex songs and calls.
-A narwhal’s tusk is an elongated tooth with sensory capability.
+A narwhal's tusk is an elongated tooth with sensory capability.
 Starfish (sea stars) can regenerate lost arms.
 Some snakes can sense infrared radiation with pit organs.
 Chameleons change color for communication and temperature control, not just camouflage.

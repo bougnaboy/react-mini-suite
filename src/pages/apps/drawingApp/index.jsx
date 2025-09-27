@@ -267,7 +267,7 @@ export default function DrawingApp() {
         if (!strokes.length) return;
         setConfirm({
             title: "Clear canvas?",
-            message: "This will remove all strokes. You can’t undo after clearing.",
+            message: "This will remove all strokes. You can't undo after clearing.",
             confirmText: "Clear",
             tone: "danger",
             onConfirm: () => {

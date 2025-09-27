@@ -302,7 +302,7 @@ export const Styled = {
         font-size: clamp(16px, 2.4vw, 20px);
         line-height: 1.6;
         opacity: 0.95;
-        quotes: "“" "”" "‘" "’";
+        quotes: "“" "”" "'" "'";
         &:before {
             content: open-quote;
             margin-right: 2px;

@@ -172,7 +172,7 @@ export default function CountdownToBirthday() {
             )}
 
             {dob && !next && (
-                <Styled.Help>Couldn’t parse the date. Re-enter DOB.</Styled.Help>
+                <Styled.Help>Couldn't parse the date. Re-enter DOB.</Styled.Help>
             )}
         </Styled.Wrapper>
     );

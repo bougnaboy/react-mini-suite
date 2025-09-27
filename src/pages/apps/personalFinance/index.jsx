@@ -186,7 +186,7 @@ export default function PersonalFinance() {
     function deleteAccount(id) {
         const used = txns.some((t) => t.accountId === id);
         if (used) {
-            if (!confirm("This account has transactions. Delete anyway? They’ll stay but show the old account id.")) return;
+            if (!confirm("This account has transactions. Delete anyway? They'll stay but show the old account id.")) return;
         } else {
             if (!confirm("Delete this account?")) return;
         }

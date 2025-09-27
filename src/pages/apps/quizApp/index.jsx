@@ -302,7 +302,7 @@ export default function QuizApp() {
                         <Styled.Sub>
                             A clean, offline-first quiz app. Pick a topic and difficulty, answer multiple-choice
                             questions, and see your score. Attempts are saved locally in your browser (LocalStorage),
-                            so it’s refresh-safe.
+                            so it's refresh-safe.
                         </Styled.Sub>
 
                         {/* space below para 1 */}

@@ -100,7 +100,7 @@ const DiceApp = () => {
         <Styled.Wrapper>
             <header className="header">
                 <h3>Dice App</h3>
-                <p className="sub">Quick rolls with a tidy history. That’s it.</p>
+                <p className="sub">Quick rolls with a tidy history. That's it.</p>
             </header>
 
             <Styled.Controls>

@@ -224,7 +224,7 @@ export default function TicTacToeGame() {
     };
 
     const statusText = winner
-        ? (winner === "draw" ? "It’s a draw!" : `${winner} wins!`)
+        ? (winner === "draw" ? "It's a draw!" : `${winner} wins!`)
         : isAITurn
             ? `Turn: ${nextPlayer} — AI thinking…`
             : `Turn: ${nextPlayer}`;

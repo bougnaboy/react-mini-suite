@@ -100,7 +100,7 @@ const Covid19Tracker = () => {
             setRefreshedAt(Date.now());
             localStorage.setItem(cacheKey, JSON.stringify({ data: normalized, updatedAt: ts }));
         } catch {
-            if (!data) setErr("Couldn’t fetch live data. Showing nothing right now.");
+            if (!data) setErr("Couldn't fetch live data. Showing nothing right now.");
         } finally {
             setLoading(false);
         }
@@ -174,7 +174,7 @@ const Covid19Tracker = () => {
                 <h5>Update cadence</h5>
                 <p>
                     Upstream providers now publish COVID numbers infrequently (often <b>daily</b> or <b>weekly</b>, not realtime).
-                    If Refresh doesn’t change values, the source hasn’t updated yet.
+                    If Refresh doesn't change values, the source hasn't updated yet.
                 </p>
                 <ul>
                     <li><b>Daily estimate:</b> {nextDaily ? `${formatPretty(nextDaily)} — ${approxFromNow(nextDaily)}` : "-"}</li>

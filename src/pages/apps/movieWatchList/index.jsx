@@ -151,7 +151,7 @@ export default function MovieWatchlist() {
 
     const clearWatched = () => {
         askConfirm({
-            title: "Clear all ‘Watched’ movies?",
+            title: "Clear all 'Watched' movies?",
             message: "This will remove all movies marked as Watched.",
             confirmText: "Clear",
             tone: "danger",
@@ -216,7 +216,7 @@ export default function MovieWatchlist() {
                     </Styled.RowWrap>
 
                     <Styled.RowWrap>
-                        <Styled.DangerButton type="button" onClick={clearWatched}>Clear ‘Watched’</Styled.DangerButton>
+                        <Styled.DangerButton type="button" onClick={clearWatched}>Clear 'Watched'</Styled.DangerButton>
                     </Styled.RowWrap>
                 </Styled.Toolbar>
 

@@ -61,7 +61,7 @@ export default function CryptoPriceChecker() {
             setData(json);
             setLastUpdated(new Date());
         } catch (err) {
-            setError("Couldn’t fetch prices. Check connection or try again.");
+            setError("Couldn't fetch prices. Check connection or try again.");
         } finally {
             setLoading(false);
         }

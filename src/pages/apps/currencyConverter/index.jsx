@@ -50,7 +50,7 @@ const formatNumber = (value) => {
 const formatWhen = (unixSeconds) => {
     if (!unixSeconds) return "Never";
     try {
-        // Show in IST since that’s your base audience
+        // Show in IST since that's your base audience
         return new Date(unixSeconds * 1000).toLocaleString("en-IN", {
             timeZone: "Asia/Kolkata",
             hour12: false,
@@ -143,7 +143,7 @@ const CurrencyConverter = () => {
             setLastUpdated(ts);
             setMsg("Rates updated");
         } catch (e) {
-            setMsg("Couldn’t fetch live rates. Using saved values.");
+            setMsg("Couldn't fetch live rates. Using saved values.");
         } finally {
             setLoading(false);
             setTimeout(() => setMsg(""), 1500);
