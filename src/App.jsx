@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const InterestRateCalculator = lazy(() => import("./pages/apps/interestRateCalculator"));
 const ColorConverter = lazy(() => import("./pages/apps/colorConverter"));
 const GuessTheNumber = lazy(() => import("./pages/apps/guessTheNumber"));
 const GifGenerator = lazy(() => import("./pages/apps/gifGenerator"));
@@ -123,6 +124,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/interest-rate-calculator" element={<InterestRateCalculator />} />
                                 <Route path="/color-converter" element={<ColorConverter />} />
                                 <Route path="/guess-the-number" element={<GuessTheNumber />} />
                                 <Route path="/gif-generator" element={<GifGenerator />} />
