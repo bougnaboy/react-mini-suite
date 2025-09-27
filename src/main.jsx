@@ -6,10 +6,10 @@ import { ConfirmProvider } from './confirm/index.jsx'
 
 createRoot(document.getElementById('root')).render(
     <>
-        <ConfirmProvider>
-            <BrowserRouter basename='/freelance-apps-hub'>
-                <App />
-            </BrowserRouter>
-        </ConfirmProvider>
+        {/* <ConfirmProvider> */}
+        <BrowserRouter basename='/freelance-apps-hub'>
+            <App />
+        </BrowserRouter>
+        {/* </ConfirmProvider> */}
     </>,
 )
