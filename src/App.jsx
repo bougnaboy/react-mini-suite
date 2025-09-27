@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const CryptoPriceChecker = lazy(() => import("./pages/apps/cryptoPriceChecker"));
 const CreditCardValidator = lazy(() => import("./pages/apps/creditCardValidator"));
 const Covid19Tracker = lazy(() => import("./pages/apps/covid19Tracker"));
 const CountdownToBirthday = lazy(() => import("./pages/apps/countdownToBirthday"));
@@ -62,9 +63,6 @@ const TokenPress = lazy(() => import("./pages/apps/tokenPress"));
 const SealMaker = lazy(() => import("./pages/apps/sealMaker"));
 const RupeeWords = lazy(() => import("./pages/apps/rupeeWords"));
 const RateCard = lazy(() => import("./pages/apps/rateCard"));
-
-
-
 
 const NotFound = lazy(() => import('./pages/notFound'));
 
@@ -114,6 +112,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/crypto-price-checker" element={<CryptoPriceChecker />} />
                                 <Route path="/credit-card-validator" element={<CreditCardValidator />} />
                                 <Route path="/covid19-tracker" element={<Covid19Tracker />} />
                                 <Route path="/countdown-to-birthday" element={<CountdownToBirthday />} />
