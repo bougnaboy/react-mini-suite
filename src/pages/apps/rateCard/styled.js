@@ -1,3 +1,4 @@
+// src/pages/apps/rateCard/styled.js
 import styled from "styled-components";
 
 const bg = "var(--bg, #0b0b0b)";

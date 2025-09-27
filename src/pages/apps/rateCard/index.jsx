@@ -2,7 +2,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Styled } from "./styled";
 import { toast } from "react-toastify";
-import { useConfirm } from "../../../confirm/index.jsx";
 
 /*
   RateCard — a tiny, printable service rate sheet.
@@ -11,7 +10,7 @@ import { useConfirm } from "../../../confirm/index.jsx";
   - Left: quick edit (business meta + simple rows)
   - Right: live preview (prints cleanly)
   - Local-only persistence (no backend)
-  - Global confirm modal (no window.confirm)
+  - Uses native window.confirm for destructive actions
 */
 
 // ---- localStorage keys (kept explicit so it's easy to grep later)
@@ -35,14 +34,13 @@ const DEFAULT_ITEMS = [
 const currencySymbol = (currency) => (currency === "INR_TEXT" ? "Rs." : "₹");
 
 // naive id generator (good enough for local tools)
-const uid = () => `srv-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`;
+const uid = () =>
+    `srv-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`;
 
 // keep only 0-9 and . ; caller decides if empty is allowed
 const sanitizeRate = (val) => (val ?? "").toString().replace(/[^\d.]/g, "");
 
 export default function RateCard() {
-    const confirm = useConfirm();
-
     const [meta, setMeta] = useState(DEFAULT_META);
     const [items, setItems] = useState(DEFAULT_ITEMS);
 
@@ -89,27 +87,19 @@ export default function RateCard() {
         );
     };
 
-    const deleteRow = async (id) => {
-        const ok = await confirm({
-            title: "Delete this row?",
-            message: "This action cannot be undone.",
-            confirmText: "Delete",
-            cancelText: "Cancel",
-            variant: "danger",
-        });
+    const deleteRow = (id) => {
+        const ok = window.confirm(
+            "Delete this row?\n\nThis action cannot be undone."
+        );
         if (!ok) return;
         setItems((prev) => prev.filter((r) => r.id !== id));
         toast.info("Row removed");
     };
 
-    const clearAll = async () => {
-        const ok = await confirm({
-            title: "Clear all data?",
-            message: "This will remove business info and all rows.",
-            confirmText: "Clear",
-            cancelText: "Keep",
-            variant: "danger",
-        });
+    const clearAll = () => {
+        const ok = window.confirm(
+            "Clear all data?\n\nThis will remove business info and all rows."
+        );
         if (!ok) return;
         localStorage.removeItem(LS_META);
         localStorage.removeItem(LS_ITEMS);
