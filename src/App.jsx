@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const CurrencyConverter = lazy(() => import("./pages/apps/currencyConverter"));
 const CryptoPriceChecker = lazy(() => import("./pages/apps/cryptoPriceChecker"));
 const CreditCardValidator = lazy(() => import("./pages/apps/creditCardValidator"));
 const Covid19Tracker = lazy(() => import("./pages/apps/covid19Tracker"));
@@ -112,6 +113,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/currency-converter" element={<CurrencyConverter />} />
                                 <Route path="/crypto-price-checker" element={<CryptoPriceChecker />} />
                                 <Route path="/credit-card-validator" element={<CreditCardValidator />} />
                                 <Route path="/covid19-tracker" element={<Covid19Tracker />} />
