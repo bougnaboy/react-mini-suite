@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const PersonalPortfolio = lazy(() => import("./pages/apps/personalPortfolio"));
 const Otp = lazy(() => import("./pages/apps/otp"));
 const MythWeaver = lazy(() => import("./pages/apps/mythWeaver"));
 const MedicineDelivery = lazy(() => import("./pages/apps/medicineDelivery"));
@@ -130,6 +131,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/personal-portfolio" element={<PersonalPortfolio />} />
                                 <Route path="/otp" element={<Otp />} />
                                 <Route path="/myth-weaver" element={<MythWeaver />} />
                                 <Route path="/medicine-delivery" element={<MedicineDelivery />} />
