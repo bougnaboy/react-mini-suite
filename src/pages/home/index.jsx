@@ -61,7 +61,8 @@ const Home = () => {
                     <legend>About Project</legend>
                     <div className='para'>
                         <div className='section'>
-                            <b>Freelance Apps Hub</b> is a curated set of <i>refactored</i>, single-purpose tools I originally built as a freelancer - now cleaned up and open-sourced. Many of these started life in <b>PHP</b>, <b>C/C++</b>, and <b>vanilla JavaScript</b> (and later <b>React</b>), Visual Basic, Java and have been modernized, standardized, and ported into a lightweight React (Vite) shell.
+                            <b>Freelance Apps Hub</b> is a curated set of <i>refactored</i>, single-purpose tools—bits and parts from apps I built while freelancing (plus a few I studied online)—now cleaned up and open-sourced. Many of these began in <b>PHP</b>, <b>C/C++</b>, <b>Visual Basic</b>, <b>Java</b>, and <b>vanilla JavaScript</b> (and later <b>React</b>), and have been modernized, standardized, and ported into a lightweight React (Vite) shell.
+
                         </div>
 
                         <div className='section'>
