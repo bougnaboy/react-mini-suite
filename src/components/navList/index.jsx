@@ -141,6 +141,7 @@ const NavListCore = () => {
             <ol className="navlinksWrapper" id="navlinksWrapper" ref={wrapperRef} reversed>
                 {/* <li><NavLink to="/home" title="Home" className={"home"}>Home</NavLink></li> */}
 
+                <li><NavLink to="/medicine-delivery" title="Medicine Delivery">Medicine Delivery</NavLink></li>
                 <li><NavLink to="/markdown-previewer" title="Markdown Previewer">Markdown Previewer</NavLink></li>
                 <li><NavLink to="/meme-generator" title="MEME Generator">MEME Generator</NavLink></li>
                 <li><NavLink to="/learning-streak-tracker" title="Learning Streak Tracker">Learning Streak Tracker</NavLink></li>

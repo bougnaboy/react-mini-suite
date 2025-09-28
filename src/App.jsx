@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const MedicineDelivery = lazy(() => import("./pages/apps/medicineDelivery"));
 const MarkdownPreviewer = lazy(() => import("./pages/apps/markdownPreviewer"));
 const MemeGenerator = lazy(() => import("./pages/apps/memeGenerator"));
 const LearningStreakTracker = lazy(() => import("./pages/apps/learningStreakTracker"));
@@ -127,6 +128,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/medicine-delivery" element={<MedicineDelivery />} />
                                 <Route path="/markdown-previewer" element={<MarkdownPreviewer />} />
                                 <Route path="/meme-generator" element={<MemeGenerator />} />
                                 <Route path="/learning-streak-tracker" element={<LearningStreakTracker />} />
