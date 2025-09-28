@@ -16,6 +16,8 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const TypingTest = lazy(() => import("./pages/apps/typingTest"));
+const SimpleHoroscopeGenerator = lazy(() => import("./pages/apps/simpleHoroscopeGenerator"));
 const ReactWeatherApp = lazy(() => import("./pages/apps/reactWeatherApp"));
 const RandomTravel = lazy(() => import("./pages/apps/randomTravel"));
 const RgbColorGuesser = lazy(() => import("./pages/apps/rgbColorGuesser"));
@@ -87,6 +89,8 @@ const SealMaker = lazy(() => import("./pages/apps/sealMaker"));
 const RupeeWords = lazy(() => import("./pages/apps/rupeeWords"));
 const RateCard = lazy(() => import("./pages/apps/rateCard"));
 
+
+
 const NotFound = lazy(() => import('./pages/notFound'));
 
 const App = () => {
@@ -135,6 +139,8 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/typing-test" element={<TypingTest />} />
+                                <Route path="/simple-horoscope-generator" element={<SimpleHoroscopeGenerator />} />
                                 <Route path="/react-weather-app" element={<ReactWeatherApp />} />
                                 <Route path="/random-travel" element={<RandomTravel />} />
                                 <Route path="/rgb-color-guesser" element={<RgbColorGuesser />} />
