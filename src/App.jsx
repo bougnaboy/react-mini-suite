@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const LearningStreakTracker = lazy(() => import("./pages/apps/learningStreakTracker"));
 const InterestRateCalculator = lazy(() => import("./pages/apps/interestRateCalculator"));
 const ColorConverter = lazy(() => import("./pages/apps/colorConverter"));
 const GuessTheNumber = lazy(() => import("./pages/apps/guessTheNumber"));
@@ -124,6 +125,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/learning-streak-tracker" element={<LearningStreakTracker />} />
                                 <Route path="/interest-rate-calculator" element={<InterestRateCalculator />} />
                                 <Route path="/color-converter" element={<ColorConverter />} />
                                 <Route path="/guess-the-number" element={<GuessTheNumber />} />
