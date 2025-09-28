@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const PasswordGenerator = lazy(() => import("./pages/apps/passwordGenerator"));
 const ReactMusicPlayer = lazy(() => import("./pages/apps/reactMusicPlayer"));
 const PersonalisedGreetingGenerator = lazy(() => import("./pages/apps/personalisedGreetingGenerator"));
 const MemoryWordGame = lazy(() => import("./pages/apps/memoryWordGame"));
@@ -143,6 +144,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/password-generator" element={<PasswordGenerator />} />
                                 <Route path="/react-music-player" element={<ReactMusicPlayer />} />
                                 <Route path="/personalised-greeting-generator" element={<PersonalisedGreetingGenerator />} />
                                 <Route path="/memory-word-game" element={<MemoryWordGame />} />

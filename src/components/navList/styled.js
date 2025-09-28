@@ -57,7 +57,7 @@ export const Styled = {
             /* border: 1px solid #f00; */
             height: calc(100% - 40px);
             overflow: auto;
-            padding-left: 40px;
+            padding-left: 10px;
             color: #666;
 
             li {
