@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const PhotoshopClone = lazy(() => import("./pages/apps/photoshopClone"));
 const PersonalPortfolio = lazy(() => import("./pages/apps/personalPortfolio"));
 const Otp = lazy(() => import("./pages/apps/otp"));
 const MythWeaver = lazy(() => import("./pages/apps/mythWeaver"));
@@ -131,6 +132,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/photoshop-clone" element={<PhotoshopClone />} />
                                 <Route path="/personal-portfolio" element={<PersonalPortfolio />} />
                                 <Route path="/otp" element={<Otp />} />
                                 <Route path="/myth-weaver" element={<MythWeaver />} />
