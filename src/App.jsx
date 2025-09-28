@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const RgbColorGuesser = lazy(() => import("./pages/apps/rgbColorGuesser"));
 const PhotoshopClone = lazy(() => import("./pages/apps/photoshopClone"));
 const PersonalPortfolio = lazy(() => import("./pages/apps/personalPortfolio"));
 const Otp = lazy(() => import("./pages/apps/otp"));
@@ -132,6 +133,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/rgb-color-guesser" element={<RgbColorGuesser />} />
                                 <Route path="/photoshop-clone" element={<PhotoshopClone />} />
                                 <Route path="/personal-portfolio" element={<PersonalPortfolio />} />
                                 <Route path="/otp" element={<Otp />} />
