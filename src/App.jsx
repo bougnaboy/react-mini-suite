@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Pages */
 const Home = lazy(() => import('./pages/home'));
 
+const IpInfo = lazy(() => import("./pages/apps/ipInfo"));
 const TypingTest = lazy(() => import("./pages/apps/typingTest"));
 const SimpleHoroscopeGenerator = lazy(() => import("./pages/apps/simpleHoroscopeGenerator"));
 const ReactWeatherApp = lazy(() => import("./pages/apps/reactWeatherApp"));
@@ -139,6 +140,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/ip-info" element={<IpInfo />} />
                                 <Route path="/typing-test" element={<TypingTest />} />
                                 <Route path="/simple-horoscope-generator" element={<SimpleHoroscopeGenerator />} />
                                 <Route path="/react-weather-app" element={<ReactWeatherApp />} />
