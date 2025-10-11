@@ -141,6 +141,8 @@ const NavListCore = () => {
             <div className="navlinksWrapper" id="navlinksWrapper" ref={wrapperRef} reversed>
                 {/* <li><NavLink to="/home" title="Home" className={"home"}>Home</NavLink></li> */}
 
+                <NavLink to="/submission-form" title="Submission Form">Submission Form</NavLink>
+
                 <NavLink to="/password-generator" title="Password Generator">Password Generator</NavLink>
                 <NavLink to="/react-music-player" title="React Music Player">React Music Player</NavLink>
                 <NavLink to="/personalised-greeting-generator" title="Personalised Greeting Generator">Personalised Greeting Generator</NavLink>

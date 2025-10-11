@@ -94,6 +94,7 @@ const SealMaker = lazy(() => import("./pages/apps/sealMaker"));
 const RupeeWords = lazy(() => import("./pages/apps/rupeeWords"));
 const RateCard = lazy(() => import("./pages/apps/rateCard"));
 
+const SubmissionForm = lazy(() => import("./pages/apps/submissionForm"));
 
 
 const NotFound = lazy(() => import('./pages/notFound'));
@@ -143,6 +144,9 @@ const App = () => {
                                 {/* Basics */}
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
+
+                                <Route path="/submission-form" element={<SubmissionForm />} />
+
 
                                 <Route path="/password-generator" element={<PasswordGenerator />} />
                                 <Route path="/react-music-player" element={<ReactMusicPlayer />} />
