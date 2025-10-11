@@ -94,6 +94,7 @@ const SealMaker = lazy(() => import("./pages/apps/sealMaker"));
 const RupeeWords = lazy(() => import("./pages/apps/rupeeWords"));
 const RateCard = lazy(() => import("./pages/apps/rateCard"));
 
+const CountryInformation = lazy(() => import("./pages/apps/countryInformation"));
 const WordLetterCounter = lazy(() => import("./pages/apps/wordLetterCounter"));
 const VirtualKeyboard = lazy(() => import("./pages/apps/virtualKeyboard"));
 const QuoteGenerator = lazy(() => import("./pages/apps/quoteGenerator"));
@@ -154,6 +155,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/country-information" element={<CountryInformation />} />
                                 <Route path="/word-letter-counter" element={<WordLetterCounter />} />
                                 <Route path="/virtual-keyboard" element={<VirtualKeyboard />} />
                                 <Route path="/quote-generator" element={<QuoteGenerator />} />
