@@ -94,6 +94,8 @@ const SealMaker = lazy(() => import("./pages/apps/sealMaker"));
 const RupeeWords = lazy(() => import("./pages/apps/rupeeWords"));
 const RateCard = lazy(() => import("./pages/apps/rateCard"));
 
+const CoinFlipper = lazy(() => import("./pages/apps/coinFlipper"));
+const JokesGenerator = lazy(() => import("./pages/apps/jokesGenerator"));
 const SubmissionForm = lazy(() => import("./pages/apps/submissionForm"));
 
 
@@ -145,6 +147,8 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/coin-flipper" element={<CoinFlipper />} />
+                                <Route path="/jokes-generator" element={<JokesGenerator />} />
                                 <Route path="/submission-form" element={<SubmissionForm />} />
 
 
