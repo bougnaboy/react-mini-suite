@@ -94,6 +94,7 @@ const SealMaker = lazy(() => import("./pages/apps/sealMaker"));
 const RupeeWords = lazy(() => import("./pages/apps/rupeeWords"));
 const RateCard = lazy(() => import("./pages/apps/rateCard"));
 
+const DictionaryApp = lazy(() => import("./pages/apps/dictionaryApp"));
 const AvatarGenerator = lazy(() => import("./pages/apps/avatarGenerator"));
 const DomainNameGenerator = lazy(() => import("./pages/apps/domainNameGenerator"));
 const LocationFinder = lazy(() => import("./pages/apps/locationFinder"));
@@ -150,6 +151,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/dictionary-app" element={<DictionaryApp />} />
                                 <Route path="/avatar-generator" element={<AvatarGenerator />} />
                                 <Route path="/domain-name-generator" element={<DomainNameGenerator />} />
                                 <Route path="/location-finder" element={<LocationFinder />} />
