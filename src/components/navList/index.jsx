@@ -142,6 +142,7 @@ const NavListCore = () => {
                 {/* <li><NavLink to="/home" title="Home" className={"home"}>Home</NavLink></li> */}
 
 
+                <NavLink to="/virtual-keyboard" title="Virtual Keyboard">Virtual Keyboard</NavLink>
                 <NavLink to="/quote-generator" title="Quote Generator">Quote Generator</NavLink>
                 <NavLink to="/dictionary-app" title="Dictionary Application">Dictionary Application</NavLink>
                 <NavLink to="/avatar-generator" title="Avatar Generator">Avatar Generator</NavLink>
