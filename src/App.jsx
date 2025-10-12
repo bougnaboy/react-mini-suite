@@ -94,6 +94,8 @@ const SealMaker = lazy(() => import("./pages/apps/sealMaker"));
 const RupeeWords = lazy(() => import("./pages/apps/rupeeWords"));
 const RateCard = lazy(() => import("./pages/apps/rateCard"));
 
+const CrowdfundingApp = lazy(() => import("./pages/apps/crowdfundingApp"));
+const HangmanGame = lazy(() => import("./pages/apps/hangmanGame"));
 const ImageCompressor = lazy(() => import("./pages/apps/imageCompressor"));
 const AspectRatioCalculator = lazy(() => import("./pages/apps/aspectRatioCalculator"));
 const CalculatorApp = lazy(() => import("./pages/apps/calculatorApp"));
@@ -158,6 +160,8 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/crowdfunding-app" element={<CrowdfundingApp />} />
+                                <Route path="/hangman-game" element={<HangmanGame />} />
                                 <Route path="/image-compressor" element={<ImageCompressor />} />
                                 <Route path="/aspect-ratio-calculator" element={<AspectRatioCalculator />} />
                                 <Route path="/calculator-app" element={<CalculatorApp />} />

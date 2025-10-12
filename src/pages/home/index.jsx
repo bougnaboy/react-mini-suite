@@ -6,56 +6,40 @@ import IndianFlag from '../../components/IndianFlag'
 import { TbWorldWww } from 'react-icons/tb'
 
 const Home = () => {
+    function formatISTLabel(iso) {
+        try {
+            const d = new Date(iso);
+            const parts = new Intl.DateTimeFormat("en-US", {
+                month: "short",
+                day: "2-digit",
+                year: "numeric",
+                hour: "2-digit",
+                minute: "2-digit",
+                second: "2-digit",
+                hour12: false,
+                timeZone: "Asia/Kolkata",
+            }).formatToParts(d);
 
+            const get = (t) => parts.find((p) => p.type === t)?.value || "";
+            return `${get("month")} ${get("day")}, ${get("year")} ${get("hour")}:${get("minute")}:${get("second")} hrs`;
+        } catch {
+            return "-";
+        }
+    }
+
+    // choose commit time, fall back to build time
+    const LAST_ISO =
+        (typeof __APP_COMMIT_ISO__ !== "undefined" && __APP_COMMIT_ISO__) ||
+        (typeof __APP_BUILD_ISO__ !== "undefined" && __APP_BUILD_ISO__) ||
+        null;
+
+    const lastUpdatedLabel = LAST_ISO ? formatISTLabel(LAST_ISO) : "-";
 
     return (
         <>
             <Styled.Wrapper>
-                <h3>Freelance Apps Hub - last updated: Sep 26, 2025</h3>
+                <h3>Freelance Apps Hub - last updated: <time dateTime={LAST_ISO || ""}>{lastUpdatedLabel}</time></h3>
 
-                {/* <fieldset>
-                    <legend>About Project</legend>
-                    <div className='para'>
-                        <div className='section'>
-                            <b>Freelance Apps Hub</b> is a clean collection of the mini-tools I built across years of freelancing-now open-sourced. Each app solves one real, focused problem for schools, students, tuitions, gyms, institutes, small orgs, and developers.
-                        </div>
-                        <div className='section'>
-                            <h3>What's inside</h3>
-                            <ul>
-                                <li>Vanilla HTML + SCSS + JavaScript apps, hosted in a lightweight React (Vite) shell</li>
-                                <li>Apps load in isolation (no CSS/JS clashes), offline-first, and print-ready</li>
-                                <li>Examples: UPI QR Generator, Daily Focus Planner, Cash Denomination Counter (more coming)</li>
-                            </ul>
-                        </div>
-
-                        <div className='section'>
-                            <h3>How to use</h3>
-                            <ul>
-                                <li>Pick an app from the left → start using instantly</li>
-                                <li>Use Print / Save as PDF where available</li>
-                                <li>Your data stays on your device ( localStorage only )</li>
-                            </ul>
-                        </div>
-
-                        <div className='section'>
-                            <h3>Why this exists</h3>
-                            <ul>
-                                <li>Share real client-style utilities with the community</li>
-                                <li>Reusable patterns for counters, billing, planning, and simple ops</li>
-                            </ul>
-                        </div>
-
-                        <div className='section'>
-                            <h3>Contribute / Feedback</h3>
-                            ⭐ the repo, file issues, or suggest an app idea
-                        </div>
-
-                        <div className='section'>
-                            <h3>Live: <a href="https://a2rp.github.io/freelance-apps-hub/home" target='_blank'>a2rp.github.io/freelance-apps-hub/home</a></h3>
-                            <h3>Code: <a href="https://github.com/a2rp/freelance-apps-hub" target='_blank'>github.com/a2rp/freelance-apps-hub</a></h3>
-                        </div>
-                    </div>
-                </fieldset > */}
 
                 <fieldset>
                     <legend>About Project</legend>

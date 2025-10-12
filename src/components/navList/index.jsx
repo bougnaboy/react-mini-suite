@@ -141,6 +141,8 @@ const NavListCore = () => {
             <div className="navlinksWrapper" id="navlinksWrapper" ref={wrapperRef} reversed>
                 {/* <li><NavLink to="/home" title="Home" className={"home"}>Home</NavLink></li> */}
 
+                <NavLink to="/crowdfunding-app" title="Crowdfunding App">Crowdfunding App</NavLink>
+                <NavLink to="/hangman-game" title="Hangman Game">Hangman Game</NavLink>
                 <NavLink to="/image-compressor" title="Image Compressor">Image Compressor</NavLink>
                 <NavLink to="/aspect-ratio-calculator" title="Aspect Ratio Calculator">Aspect Ratio Calculator</NavLink>
                 <NavLink to="/calculator-app" title="Calculator App">Calculator App</NavLink>
@@ -220,8 +222,6 @@ const NavListCore = () => {
                 <NavLink to="/sticky-notes-app" title="Sticky Notes App">Sticky Notes App</NavLink>
                 <NavLink to="/kanban-board" title="Kanban Board">Kanban Board</NavLink>
                 <NavLink to="/text-editor" title="Text Editor">Text Editor</NavLink>
-
-
 
                 <NavLink to="/personal-finance" title="Personal Finance">Personal Finance</NavLink>
                 <NavLink to="/smart-timetable" title="Smart Timetable">Smart Timetable</NavLink>
