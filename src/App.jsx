@@ -94,6 +94,7 @@ const SealMaker = lazy(() => import("./pages/apps/sealMaker"));
 const RupeeWords = lazy(() => import("./pages/apps/rupeeWords"));
 const RateCard = lazy(() => import("./pages/apps/rateCard"));
 
+const AppointmentManagement = lazy(() => import("./pages/apps/appointmentManagement"));
 const NewsApp = lazy(() => import("./pages/apps/newsApp"));
 const FlappyBirdGame = lazy(() => import("./pages/apps/flappyBirdGame"));
 const ParallaxPage = lazy(() => import("./pages/apps/parallaxPage"));
@@ -165,6 +166,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/appointment-management" element={<AppointmentManagement />} />
                                 <Route path="/news-app" element={<NewsApp />} />
                                 <Route path="/flappy-bird-game" element={<FlappyBirdGame />} />
                                 <Route path="/parallax-page" element={<ParallaxPage />} />
