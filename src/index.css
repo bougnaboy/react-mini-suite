@@ -31,6 +31,10 @@
 
     /* Focus */
     --focus-ring: 0 0 0 3px hsl(210 90% 56% / 0.35);
+
+    --pong-ball: #ffd166;
+    --pong-paddle: #06d6a0;
+    --pong-paddle-border: #118ab2;
 }
 
 /* Optional: auto dark-mode via system preference */
