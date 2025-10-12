@@ -94,6 +94,7 @@ const SealMaker = lazy(() => import("./pages/apps/sealMaker"));
 const RupeeWords = lazy(() => import("./pages/apps/rupeeWords"));
 const RateCard = lazy(() => import("./pages/apps/rateCard"));
 
+const PacManGame = lazy(() => import("./pages/apps/pacManGame"));
 const CrowdfundingApp = lazy(() => import("./pages/apps/crowdfundingApp"));
 const HangmanGame = lazy(() => import("./pages/apps/hangmanGame"));
 const ImageCompressor = lazy(() => import("./pages/apps/imageCompressor"));
@@ -160,6 +161,7 @@ const App = () => {
                                 <Route path="/" element={<Navigate to="/home" />} />
                                 <Route path="/home" element={<Home />} />
 
+                                <Route path="/pac-man-game" element={<PacManGame />} />
                                 <Route path="/crowdfunding-app" element={<CrowdfundingApp />} />
                                 <Route path="/hangman-game" element={<HangmanGame />} />
                                 <Route path="/image-compressor" element={<ImageCompressor />} />
