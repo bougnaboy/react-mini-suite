@@ -141,6 +141,7 @@ const NavListCore = () => {
             <div className="navlinksWrapper" id="navlinksWrapper" ref={wrapperRef} reversed>
                 {/* <li><NavLink to="/home" title="Home" className={"home"}>Home</NavLink></li> */}
 
+                <NavLink to="/snake-game" title="Snake Game">Snake Game</NavLink>
                 <NavLink to="/tenzies-game" title="Tenzies Game">Tenzies Game</NavLink>
                 <NavLink to="/job-board" title="Job Board">Job Board</NavLink>
                 <NavLink to="/mortgage-calculator" title="Mortgage Calculator">Mortgage Calculator</NavLink>
