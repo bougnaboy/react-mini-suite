@@ -38,15 +38,14 @@ const Home = () => {
     return (
         <>
             <Styled.Wrapper>
-                <h3>Freelance Apps Hub - last updated: <time dateTime={LAST_ISO || ""}>{lastUpdatedLabel}</time></h3>
+                <h3>React Mini Suite - last updated: <time dateTime={LAST_ISO || ""}>{lastUpdatedLabel}</time></h3>
 
 
                 <fieldset>
                     <legend>About Project</legend>
                     <div className='para'>
                         <div className='section'>
-                            <b>Freelance Apps Hub</b> is a curated set of <i>refactored</i>, single-purpose tools—bits and parts from apps I built while freelancing (plus a few I studied online)—now cleaned up and open-sourced. Many of these began in <b>PHP</b>, <b>C/C++</b>, <b>Visual Basic</b>, <b>Java</b>, and <b>vanilla JavaScript</b> (and later <b>React</b>), and have been modernized, standardized, and ported into a lightweight React (Vite) shell.
-
+                            <b>React Mini Suite</b> is a curated set of <i>refactored</i>, single-purpose tools-bits and parts from apps I built while freelancing (plus a few I studied online)-now cleaned up and open-sourced. Many of these began in <b>PHP</b>, <b>C/C++</b>, <b>Visual Basic</b>, <b>Java</b>, and <b>vanilla JavaScript</b> (and later <b>React</b>), and have been modernized, standardized, and ported into a lightweight React (Vite) shell.
                         </div>
 
                         <div className='section'>
@@ -54,7 +53,7 @@ const Home = () => {
                             <ul>
                                 <li>Real client utilities, refactored: PHP / C/C++ / JavaScript / React → consistent UI, confirm dialogs, and print views</li>
                                 <li>Vanilla HTML + SCSS + JavaScript apps, hosted in an isolated React route (no CSS/JS clashes)</li>
-                                <li>Offline-first with tidy “Print / Save as PDF” layouts</li>
+                                <li>Offline-first with tidy "Print / Save as PDF" layouts</li>
                                 <li>Examples: UPI QR Generator, Daily Focus Planner, Cash Denomination Counter (more coming)</li>
                             </ul>
                         </div>
@@ -82,8 +81,8 @@ const Home = () => {
                         </div>
 
                         <div className='section'>
-                            <h3>Live: <a href="https://a2rp.github.io/freelance-apps-hub/home" target='_blank'>a2rp.github.io/freelance-apps-hub/home</a></h3>
-                            <h3>Code: <a href="https://github.com/a2rp/freelance-apps-hub" target='_blank'>github.com/a2rp/freelance-apps-hub</a></h3>
+                            <h3>Live: <a href="https://a2rp.github.io/react-mini-suite/home" target='_blank'>a2rp.github.io/react-mini-suite/home</a></h3>
+                            <h3>Code: <a href="https://github.com/a2rp/react-mini-suite" target='_blank'>github.com/a2rp/react-mini-suite</a></h3>
                         </div>
                     </div>
                 </fieldset>

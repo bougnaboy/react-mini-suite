@@ -136,7 +136,7 @@ const App = () => {
                     <Styled.NavLinkWrapper onClick={handleDisplayNav}>
                         <MdMenuOpen size={20} />
                     </Styled.NavLinkWrapper>
-                    <NavLink to="/" title="Freelance Apps Hub">Freelance Apps Hub</NavLink>
+                    <NavLink to="/" title="React Mini Suite">React Mini Suite</NavLink>
                 </Styled.LogoLinkWrapper>
                 <Styled.Heading>
                     <a

@@ -7,7 +7,7 @@ import { ConfirmProvider } from './confirm/index.jsx'
 createRoot(document.getElementById('root')).render(
     <>
         {/* <ConfirmProvider> */}
-        <BrowserRouter basename='/freelance-apps-hub'>
+        <BrowserRouter basename='/react-mini-suite'>
             <App />
         </BrowserRouter>
         {/* </ConfirmProvider> */}

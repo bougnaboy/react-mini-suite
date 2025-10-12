@@ -221,7 +221,7 @@ export default function ReactWeatherApp() {
       <div class="header">
         <div>
           <div class="title">${cityTitle}</div>
-          <div class="meta">7-day forecast • Printed from Freelance Apps Hub</div>
+          <div class="meta">7-day forecast • Printed from React Mini Suite</div>
         </div>
         <div class="now">${view.now}</div>
       </div>

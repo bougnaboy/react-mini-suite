@@ -1,4 +1,4 @@
-# Freelance Apps Hub
+# React Mini Suite
 
 A compact hub of my **freelancing mini-apps** now opened up as **open source** - built for real clients (schools, students, tuitions, gyms, institutes, small orgs, developers).  
 Stack: **HTML + SCSS + JavaScript** inside each app, **React (Vite)** shell.
@@ -8,8 +8,8 @@ Stack: **HTML + SCSS + JavaScript** inside each app, **React (Vite)** shell.
 Over a long career in **freelancing**, I've built dozens of small, purpose-built tools for real clients.  
 Now I'm **open-sourcing** many of those **apps and app parts** so others can learn, reuse, and adapt.
 
-**Live:** https://a2rp.github.io/freelance-apps-hub/  
-**Code:** https://github.com/a2rp/freelance-apps-hub
+**Live:** https://a2rp.github.io/react-mini-suite/  
+**Code:** https://github.com/a2rp/react-mini-suite
 
 ---
 
@@ -17,8 +17,8 @@ Now I'm **open-sourcing** many of those **apps and app parts** so others can lea
 
 ```bash
 # Clone
-git clone https://github.com/a2rp/freelance-apps-hub.git
-cd freelance-apps-hub
+git clone https://github.com/a2rp/react-mini-suite.git
+cd react-mini-suite
 
 # Install & run
 npm i
